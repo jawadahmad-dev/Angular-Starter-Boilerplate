@@ -1,0 +1,19 @@
+scss :host {
+  display: block;
+  min-height: 100vh;
+}
+
+/* PrimeNG password wrapper */
+:host ::ng-deep .p-password {
+  width: 100%;
+}
+
+/* PrimeNG input inside password */
+:host ::ng-deep .p-password-input {
+  width: 100%;
+}
+
+/* Make PrimeNG button consistently full width */
+:host ::ng-deep .p-button {
+  justify-content: center;
+}
