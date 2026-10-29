@@ -10,5 +10,5 @@ import { ConfirmDialogModule } from 'primeng/confirmdialog';
   styleUrl: './app.scss',
 })
 export class App {
-  protected readonly title = signal('Attendance-Client');
+  protected readonly title = signal('Angular-Starter-Boilerplate');
 }
